@@ -74,7 +74,7 @@ def todo_list_program():
 
     # The main function
     # Has the logic of all other functions in a simple while loop
-    # Holds the main list needed for the functionallity of the functions and the completed tasks variable
+    # Holds the main list needed for the functionality of the functions and the completed tasks variable
 
     todo_list = []
     completed_tasks = 0
@@ -96,7 +96,7 @@ def todo_list_program():
                 print(f"You have completed {completed_tasks} tasks!")
             break
         else:
-            print("Invalid choice. Please inser a number between 1-4.")
+            print("Invalid choice. Please insert a number between 1-4.")
 
 
 todo_list_program()  # Starts the whole program
