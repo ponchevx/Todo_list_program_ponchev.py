@@ -2,8 +2,8 @@
 
 def main_menu():
 
-    # Prints the whole menu of the program to show the user the possible inputs
-    # Every number corresponds to different functions in the main function 'todo_list_program'
+    ''' Prints the whole menu of the program to show the user the possible inputs
+     Every number corresponds to different functions in the main function 'todo_list_program' '''
 
     print("1. Add a new task")
     print("2. Mark a task as completed")
@@ -12,8 +12,7 @@ def main_menu():
 
 def add_task(todo_list):
 
-    # Adds the task from the user input in todo_list if valid
-    # Sets the task as not completed
+    ''' Adds the task from the user input in todo_list if valid and sets the task as not completed '''
 
     task_input = input("Type a task to add: ")
 
@@ -27,8 +26,7 @@ def add_task(todo_list):
 
 def mark_as_completed(todo_list):
 
-    # Sets the task by index as completed
-    # Checks if the index is valid
+    ''' Sets the task by index as completed and checks if the index is valid '''
 
     print("===== Tasks =====")
     display_tasks(todo_list)
@@ -47,8 +45,8 @@ def mark_as_completed(todo_list):
 
 def display_tasks(todo_list):
 
-    # Displays all of the tasks inserted by the user if any
-    # Prints some additional messages depending on the quantity of the completed tasks
+    ''' Displays all of the tasks inserted by the user if any.
+     Prints some additional messages depending on the quantity of the completed tasks '''
 
     print("===== Tasks =====")
     completed_tasks = 0
@@ -72,9 +70,8 @@ def display_tasks(todo_list):
 
 def todo_list_program():
 
-    # The main function
-    # Has the logic of all other functions in a simple while loop
-    # Holds the main list needed for the functionality of the functions and the completed tasks variable
+    ''' The main function. Has the logic of all other functions in a simple while loop.
+    Holds the main list needed for the functionality of the functions and the completed tasks variable '''
 
     todo_list = []
     completed_tasks = 0
